@@ -7,7 +7,7 @@ const app = new Hono();
 app.use("/", cors());
 
 app.get("/", (c) => {
-  return c.text("turtle 🐢!");
+	return c.text("turtle 🐢🦀!");
 });
 
 app.route("/users", users);
